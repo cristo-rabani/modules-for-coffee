@@ -12,7 +12,7 @@ meteor add universe:modules-for-coffee
 using('/some/module')(module) ->
   console.log module
 
-using('/some/module', '{universe:collection}')([mod1, mod2]) ->
+using('/some/module', '{universe:collection}')(mod1, mod2) ->
   console.log mod1, mod2
 ```
 
