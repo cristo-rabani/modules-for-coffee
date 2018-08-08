@@ -1,12 +1,16 @@
-# Universe Modules For Coffee
+<h1 align="center">
+    <a href="https://github.com/vazco">vazco</a>/Universe Modules For Coffee
+</h1>
 
-## Installation
+&nbsp;
+
+### Installation
 
 ```sh
 meteor add universe:modules-for-coffee
 ```
 
-# Examples
+### Examples
 
 ```coffeescript
 using('/some/module') (module) ->
@@ -19,6 +23,8 @@ using('/some/module', '{universe:collection}') (mod1, mod2) ->
   console.log mod1, mod2
 ```
 
-## License
+### License
 
-This package is released under the MIT license.
+<img src="https://vazco.eu/banner.png" align="right">
+
+**Like every package maintained by [Vazco](https://vazco.eu/), Universe Modules For Coffee is [MIT licensed](https://github.com/vazco/uniforms/blob/master/LICENSE).**
